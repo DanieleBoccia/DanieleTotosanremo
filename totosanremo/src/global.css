@@ -1,0 +1,19 @@
+/* global.css */
+::-webkit-scrollbar {
+    width: 8px; /* Più sottile per un aspetto più discreto */
+  }
+  ::-webkit-scrollbar-track {
+    background: #e0e0e0; /* Colore dello sfondo più chiaro */
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #bdbdbd; /* Colore della thumb più chiaro */
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9e9e9e; /* Colore della thumb al passaggio del mouse */
+  }
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #bdbdbd #e0e0e0; /* Colori per Firefox */
+  }
+  
+  
